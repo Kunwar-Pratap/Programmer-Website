@@ -1,0 +1,86 @@
+@media only screen and (max-width: 1345px) {
+
+
+    .navbar {
+        flex-direction: column;
+        height: 480px;
+        transition: all 0.4s ease-out;
+    }
+
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-items li {
+        padding: 20px;
+    }
+
+    .nav-items li a {
+        font-weight: 400;
+    }
+
+    .search-bar {
+        text-align: center;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .buttonMain {
+        padding: 9px 14px;
+        font-size: 17px;
+    }
+
+    .main-dock {
+        max-width: 100%;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+
+    .contentSection {
+        flex-direction: column-reverse;
+    }
+
+    .holder {
+        padding: 0px;
+    }
+
+    .big-text {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    .small-text {
+        text-align: justify;
+        font-size: 1em;
+    }
+
+    .img-holder img {
+        height: 30vh;
+        margin-top: 70px;
+    }
+
+    .contactSection {
+        height: 700px;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .h-nav {
+        height: 70px;
+    }
+
+    .o-nav {
+        opacity: 0;
+    }
+
+    .footer-content {
+        font-size: 14px;
+        padding: 8px 0;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 25%;
+    margin: 6px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    width: 75%;
+}
+
+.nav-items li {
+    padding: 25px;
+    list-style: none;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-family: var(--navbarFont);
+    font-size: 1.4em;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-items li a:hover {
+    color: aquamarine;
+}
+
+.search-bar {
+    width: 25%;
+    padding: 0 25px;
+    text-align: center;
+}
+
+#search {
+    border-radius: 8px;
+    padding: 7px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+
+.heroSection {
+    height: 100vh;
+}
+
+.main-dock {
+    display: flex;
+    color: whitesmoke;
+    height: 85vh;
+    max-width: 55vw;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.firstAllotment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+}
+
+.secondAllotment {
+    width: 30vw;
+}
+
+.secondAllotment img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    border: 5px solid #007aff;
+    border-radius: 30px;
+}
+
+.heroButtons button:hover {
+    background-color: #007aff;
+    color: white;
+    border: 2px solid #007aff;
+}
+
+.contentSection {
+    max-width: 85vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.holder {
+    padding: 0 50px;
+}
+
+.content-main {
+    padding: 34px;
+}
+
+.content-child {
+    text-align: justify;
+}
+
+.img-holder img {
+    height: 40vh;
+    margin-top: 130px;
+    border: 2px solid black;
+    border-radius: 34px;
+}
+
+.contactSection {
+    height: 80%;
+    background-color: rgba(187, 199, 237, 0.921);
+}
+
+.form-group {
+    max-width: 50vw;
+    margin: auto;
+}
+
+.form-input {
+    width: 100%;
+    margin: 11px 0;
+    padding: 6px 10px;
+    font-family: var(--headingFont);
+    font-size: 17px;
+    border: 2px solid rgba(157, 176, 238, 0.921);
+    border-radius: 8px;
+    outline: none;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+    font-family: var(--navbarFont);
+    background-color: black;
+    color: whitesmoke;
+}
+
+.burger {
+    position: absolute;
+    display: none;
+    right: 7px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.track {
+    background-color: whitesmoke;
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+}
